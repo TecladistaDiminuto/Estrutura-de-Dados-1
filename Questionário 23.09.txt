@@ -1,0 +1,24 @@
+https://share.gemini.google/yKKnOCj8OzJT
+
+1. Qual o problema/projeto imposto?
+R: Fazer um sistema de chamados da equipe técnica de uma empresa.
+
+2. Quais TADs precisarão ser implementadas?
+R: {Entidades}: representa quais serão os agentes do sistema, onde pode ser o solicitante como o técnico.
+   {Chamados}: representa um indivíduo, com informações como número da matrícula, nome do solicitante, nome do setor e descrição do problema. Ao finalizar, é gerado uma ID.
+   {Fila_Chamados}: representa a lista onde localiza-se todos os chamados, havendo a ID do chamado e a ID do chamado que vai listar as informações do solicitante e a descrição do problema.
+   {Chamados_Realizados}: representa a lista que busca as informações da ID do chamado e inclui um campo Status (categoriza entre "Não-Iniciado", "Pendente" e "Concluído") e finaliza com um campo "Resolução", que descreve como 
+
+3. Quais operações cada TAD deve ter?
+R: {Chamados}: esta TAD deve registrar sobre quem está abrindo o chamado e descrever qual o problema ocorrido. 
+   {Fila_Chamados}: vai listar esses chamados de forma ordenada na forma de o primeiro que entra é o primeiro que sai.
+   {Chamados_Realizados}: vai 
+
+4. Como se dará o relacionamento entre os TADs (serão independentes, um dentro de outro, um contendo uma lista do outro, etc.)?
+R: Não sei como é o termo técnico, mas a TAD {Chamados} será o ponto inicial do sistema. Feito esse registro, essas informações serão colocadas para a TAD {Fila_Chamados} em que o técnico visualizará e resolverá o chamado. 
+
+5. Como se pretende gerenciar o consumo de memória necessário para cada TAD?
+R: Não sei dizer como por conta da pouca experiência na área, mas tudo será pensado e otimizado.
+
+6. Qual a vantagem da sua abordagem em relação a uma abordagem sem nenhum TAD?
+R: Não sei dizer kkkkkkk
