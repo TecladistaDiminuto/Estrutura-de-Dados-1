@@ -20,6 +20,7 @@
     int fila_vazia(Fila_Chamados* f); // verifica se a fila está vazia.
     int fila_cheia(Fila_Chamados* f); // verifica se a fila está cheia.
     void liberar_fila(Fila_Chamados* f); // libera a memória alocada para a fila.
+    void listar_chamados(Fila_Chamados f); // lista todos os chamados na fila, exibindo suas informações.
 
 #endif // FILA_CHAMADOS_H
 

@@ -19,6 +19,6 @@
     Chamado abrir_chamado(int id, Usuario u, const char* desc); //Cria e preenche um chamado do zero.
     void atender_chamado(Chamado* c, Tecnico t); // Atribui um técnico responsável ao chamado e muda o status para "Em andamento".
     void fechar_chamado(Chamado* c, const char* resposta); // Escreve a resposta do técnico e muda o status para "Concluído".
-    void exibir_chamado(Chamado* c); // Exibe as informações do chamado, incluindo o status e a resposta, se houver.
+    void exibir_chamado(const Chamado* c); // Exibe as informações do chamado, incluindo o status e a resposta, se houver.
 
 #endif // CHAMADO_H
